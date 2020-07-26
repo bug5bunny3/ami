@@ -1,0 +1,23 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+alias ls='ls --color=auto'
+PS1='[\u@\h \W]$?\$ '
+
+alias ll='ls -alhF'
+alias lt='ll -tcr'
+alias pacman='pacman --color=auto'
+
+set -o vi
+
+alias grep='grep --color=auto'
+export EDITOR=vim
+alias view='rview'
+
+export HISTCONTROL=erasedups
+export HISTSIZE=-1
+export HISTFILESIZE=-1

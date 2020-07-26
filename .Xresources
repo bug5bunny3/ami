@@ -1,0 +1,8 @@
+URxvt.foreground: white
+URxvt.background: black
+!URxvt.font: xft:Ubuntu Mono:size=10
+URxvt.font: xft:Ubuntu Mono-14:antialias=true:autohint=true
+!URxvt.borderColor: white
+!URxvt.externalBorder: 1
+URxvt.internalBorder: 1
+Rxvt.scrollBar: 0
