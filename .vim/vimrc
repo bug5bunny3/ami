@@ -145,3 +145,4 @@ endif
 set nu rnu
 set ignorecase smartcase	
 set title
+set hls
