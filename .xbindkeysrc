@@ -75,9 +75,11 @@
 
 "pactl set-sink-mute @DEFAULT_SINK@ toggle"
   XF86AudioMute
-"pactl set-sink-volume @DEFAULT_SINK@ -3000"
+#"pactl set-sink-volume @DEFAULT_SINK@ -3000"
+"pactl set-sink-volume @DEFAULT_SINK@ -2%"
   XF86AudioLowerVolume
-"pactl set-sink-volume @DEFAULT_SINK@ +3000"
+#"pactl set-sink-volume @DEFAULT_SINK@ +3000"
+"pactl set-sink-volume @DEFAULT_SINK@ +2%"
   XF86AudioRaiseVolume
 
 "xbacklight -dec 5"
