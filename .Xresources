@@ -1,3 +1,6 @@
+*.background: black
+*.foreground: white
+*.font: Ubuntu Mono-14
 URxvt.foreground: white
 URxvt.background: black
 !URxvt.font: xft:Ubuntu Mono:size=10
