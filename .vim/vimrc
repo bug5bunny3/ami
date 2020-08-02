@@ -146,3 +146,6 @@ set nu rnu
 set ignorecase smartcase	
 set title
 set hls
+hi Visual ctermbg=235
+"hi Visual cterm=reverse
+hi Comment ctermfg=238

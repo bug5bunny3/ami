@@ -131,3 +131,4 @@ alias bw='bw --pretty'
 export MOZ_USE_XINPUT2=1
 
 alias diff='diff --color'
+. ~/.bash.d/cht.sh
