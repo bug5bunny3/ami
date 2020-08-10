@@ -149,3 +149,6 @@ set hls
 hi Visual ctermbg=235
 "hi Visual cterm=reverse
 hi Comment ctermfg=238
+
+set cursorcolumn
+hi CursorColumn ctermbg=233

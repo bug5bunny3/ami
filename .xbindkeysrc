@@ -70,7 +70,8 @@
 ##################################
 #
 
-"slock &"
+#"slock &"
+"slock"
   Mod4 + semicolon
 
 "pactl set-sink-mute @DEFAULT_SINK@ toggle"
@@ -82,14 +83,13 @@
 "pactl set-sink-volume @DEFAULT_SINK@ +2%"
   XF86AudioRaiseVolume
 
-"xbacklight -dec 5"
+"xbacklight -dec 5 -time 0 -steps 1"
   XF86MonBrightnessDown
-"xbacklight -inc 5"
+"xbacklight -inc 5 -time 0 -steps 1"
   XF86MonBrightnessUp
-
-"xbacklight -dec 1"
+"xbacklight -dec 1 -time 0 -steps 1"
   Shift + XF86MonBrightnessDown
-"xbacklight -inc 1"
+"xbacklight -inc 1 -time 0 -steps 1"
   Shift + XF86MonBrightnessUp
 
 "imlib2_grab ~/Pictures/$(date '+%j.%y-%H%M%S.%N').png"

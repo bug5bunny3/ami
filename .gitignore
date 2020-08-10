@@ -26,3 +26,4 @@ Pictures
 src
 bin
 .bash.d
+.sqlite_history

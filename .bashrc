@@ -123,7 +123,7 @@ export HISTCONTROL=erasedups
 export HISTSIZE=-1
 export HISTFILESIZE=-1
 
-alias youtube-viewer='youtube-viewer -C'
+#alias youtube-viewer='youtube-viewer -C'
 alias bw='bw --pretty'
 
 export MOZ_USE_XINPUT2=1
