@@ -152,3 +152,9 @@ hi Comment ctermfg=238
 
 set cursorcolumn
 hi CursorColumn ctermbg=233
+
+"extra from ubuntu
+"set smartindent
+"map <Down> <C-e>
+"map <Up> <C-y>
+"set syn=json
