@@ -74,13 +74,16 @@
 "slock"
   Mod4 + semicolon
 
-"pactl set-sink-mute @DEFAULT_SINK@ toggle"
+#"pactl set-sink-mute @DEFAULT_SINK@ toggle"
+"amixer set Master toggle"
   XF86AudioMute
 #"pactl set-sink-volume @DEFAULT_SINK@ -3000"
-"pactl set-sink-volume @DEFAULT_SINK@ -2%"
+#"pactl set-sink-volume @DEFAULT_SINK@ -2%"
+"amixer set Master 5%-"
   XF86AudioLowerVolume
 #"pactl set-sink-volume @DEFAULT_SINK@ +3000"
-"pactl set-sink-volume @DEFAULT_SINK@ +2%"
+#"pactl set-sink-volume @DEFAULT_SINK@ +2%"
+"amixer set Master 5%+"
   XF86AudioRaiseVolume
 
 "xbacklight -dec 5 -time 0 -steps 1"
