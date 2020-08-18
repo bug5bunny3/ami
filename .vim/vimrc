@@ -19,3 +19,9 @@ set ai
 "set shiftwidth=2
 "set expandtab
 "set ruler
+
+"extra from ubuntu
+"set smartindent
+"map <Down> <C-e>
+"map <Up> <C-y>
+"set syn=json
