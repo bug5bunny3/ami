@@ -1,0 +1,12 @@
+before
+-----------
+$ for family in serif sans-serif monospace Arial Helvetica Verdana "Times New Roman" "Courier New"; do echo -n "$family: ";fc-match "$family";done
+------------
+serif: NotoSerif-Regular.ttf: "Noto Serif" "Regular"
+sans-serif: NotoSans-Regular.ttf: "Noto Sans" "Regular"
+monospace: NotoSansMono-Regular.ttf: "Noto Sans Mono" "Regular"
+Arial: NotoSans-Regular.ttf: "Noto Sans" "Regular"
+Helvetica: NotoSans-Regular.ttf: "Noto Sans" "Regular"
+Verdana: NotoSans-Regular.ttf: "Noto Sans" "Regular"
+Times New Roman: NotoSerif-Regular.ttf: "Noto Serif" "Regular"
+Courier New: NotoSansMono-Regular.ttf: "Noto Sans Mono" "Regular"
