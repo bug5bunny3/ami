@@ -39,7 +39,7 @@
 
 # Examples of commands:
 
-#"xbindkeys_show" 
+#"xbindkeys_show"
   #control+shift + q
 
 # set directly keycode (here control + f with my keyboard)
@@ -97,3 +97,6 @@
 
 "imlib2_grab ~/Pictures/$(date '+%j.%y-%H%M%S.%N').png"
   Print
+
+"chromium&"
+    Mod4 + w

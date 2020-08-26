@@ -36,7 +36,7 @@ shopt -s histappend
 # the history will halt the shell prompt until it's finished.
 #PROMPT_COMMAND='history -a'
 
-# Change the window title of X terminals 
+# Change the window title of X terminals
 case ${TERM} in
 	[aEkx]term*|rxvt*|gnome*|konsole*|interix)
 		PS1='\[\033]0;\u@\h:\w\007\]'
@@ -113,6 +113,7 @@ set -o vi
 
 alias ls='ls --color=auto'
 alias ll='ls -alhF'
+alias lt='ll -tr'
 alias lc='ll -tcr'
 
 export EDITOR=vim

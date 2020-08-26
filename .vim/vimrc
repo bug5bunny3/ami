@@ -1,5 +1,5 @@
 set showcmd		" display incomplete commands
-"set wildmenu		" display completion matches in a status line
+set wildmenu		" display completion matches in a status line
 
 "set ttimeout		" time out for key codes
 "set ttimeoutlen=100	" wait up to 100ms after Esc for special key
@@ -31,3 +31,6 @@ set ai
 "map <Down> <C-e>
 "map <Up> <C-y>
 "set syn=json
+
+"set clipboard+=unnamedplus
+set clipboard=unnamedplus
