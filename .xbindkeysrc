@@ -100,3 +100,6 @@
 
 "chromium&"
     Mod4 + w
+
+"xte-xbind.sh"
+    Mod4 + n
